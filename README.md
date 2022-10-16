@@ -1,6 +1,5 @@
 <h1 align="center">Laravel TALL Boilerplate</h1>
 <p align="center">
-<a href="https://packagist.org/packages/lariele/laravel-tall-boilerplate"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/lariele/laravel-tall-boilerplate"><img src="https://img.shields.io/packagist/v/lariele/laravel-tall-boilerplate" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/lariele/laravel-tall-boilerplate"><img src="https://img.shields.io/github/license/lariele/laravel-tall-boilerplate" alt="License"></a>
 </p>
