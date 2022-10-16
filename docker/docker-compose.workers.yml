@@ -1,0 +1,42 @@
+version: '3'
+
+services:
+  schedule:
+    container_name: "${DOCKER_CONTAINER_NAME-lariele}_schedule"
+    build:
+      context: ./
+      dockerfile: php/Workers.dockerfile
+#    deploy:
+#      restart_policy:
+#        condition: on-failure
+#        delay: 5s
+#        max_attempts: 3
+    environment:
+      - CONTAINER_TYPE=schedule
+    volumes:
+      - ./../:/var/www/html
+      - ~/.composer/docker-cache/:/root/.composer:cached
+    depends_on:
+      - app
+      - redis
+      - db
+
+  workers:
+    container_name: "${DOCKER_CONTAINER_NAME-lariele}_workers"
+    build:
+      context: ./
+      dockerfile: php/Workers.dockerfile
+#    deploy:
+#      restart_policy:
+##        condition: on-failure
+#        delay: 5s
+#        max_attempts: 3
+    environment:
+      - CONTAINER_TYPE=queue
+    volumes:
+      - ~/.composer/docker-cache/:/root/.composer:cached
+      - ./../:/var/www/html
+    depends_on:
+      - app
+      - redis
+      - db

@@ -1,0 +1,17 @@
+[x-cloak] {
+    display: none !important;
+}
+
+body {
+    font-family: "Roboto", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.content {
+    @apply max-w-screen-xl m-auto px-4 md:px-8
+}
+
+.fadeOut, .fadeOut td {
+    opacity: 0.5;
+
+    transition: visibility 0s 0.5s, opacity 0.5s linear, height 0.5s linear, line-height 0.5s linear, padding-top 0.5s linear, padding-bottom 0.5s linear;
+}
