@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "lapiere/laravel-tall-boilerplate",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Boilerplate with Lariele components in Tailwind CSS + Alpine JS, Laraveli, Livewire - TALL.",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {
