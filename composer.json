@@ -10,7 +10,7 @@
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
-        "lariele/order": "dev-main",
+        "lariele/order": "develop",
         "livewire/livewire": "^2.10",
         "spatie/enum": "^3.13"
     },
