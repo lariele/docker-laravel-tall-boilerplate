@@ -13,22 +13,41 @@
 git clone https://github.com/lariele/laravel-tall-boilerplate
 ```
 
-enter boilerplate
+enter new project
 ```
 cd laravel-tall-boilerplate
 ```
 
 ## Run with Docker
+#### Compose up Docker container
 ```
 make docker-run
 ```
 
-### Install composer packages
+#### Enter APP container
+```
+make docker-exec-app
+```
+
+## Installation
+#### Install composer packages
 ```
 composer update
 ```
 
-### NPM packages
+#### NPM packages
+```
+npm install
+```
+
+## Database
+#### Run Database migrations
+```
+php artisan migrate
+```
+
+## Development
+#### Run npm dev
 ```
 npm run dev
 ```
