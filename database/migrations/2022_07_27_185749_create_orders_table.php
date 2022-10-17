@@ -3,6 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use Lariele\Order\Enums\OrderStatus;
 
 return new class extends Migration
 {
@@ -19,7 +20,7 @@ return new class extends Migration
             $table->string('customer_address')->index();
             $table->dateTime('ordered_at')->index();
             $table->float('price',8,2)->nullable()->index();
-            $table->enum('status', \Lariele\Order\Enums\OrderStatus::toValues())->default(\Lariele\Order\Enums\OrderStatus::new())->index();
+            $table->enum('status', OrderStatus::toValues())->default(OrderStatus::new())->nullable()->index();
             $table->timestamps();
         });
     }

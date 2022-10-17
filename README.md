@@ -8,7 +8,7 @@
 ### Boilerplate with components created in Tailwind CSS, Alpine JS, Laravel, Livewire - TALL
 
 ## Get Boilerplate
-
+#### Clone repository
 ```
 git clone https://github.com/lariele/laravel-tall-boilerplate
 ```
@@ -16,6 +16,11 @@ git clone https://github.com/lariele/laravel-tall-boilerplate
 enter new project
 ```
 cd laravel-tall-boilerplate
+```
+#### Prepare .env file
+```
+cp .env.example .env
+php artisan key:generate
 ```
 
 ## Run with Docker
