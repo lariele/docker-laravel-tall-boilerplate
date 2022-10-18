@@ -1,8 +1,8 @@
 <h1 align="center">Laravel TALL Boilerplate</h1>
 <p align="center">
-<a href="https://packagist.org/packages/lariele/laravel-tall-boilerplate"><img src="https://img.shields.io/github/v/release/lariele/laravel-tall-boilerplate" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/lariele/laravel-tall-boilerplate"><img src="https://img.shields.io/github/v/tag/lariele/laravel-tall-boilerplate" alt="Latest Tag"></a>
-<a href="https://packagist.org/packages/lariele/laravel-tall-boilerplate"><img src="https://img.shields.io/github/license/lariele/laravel-tall-boilerplate" alt="License"></a>
+<a href="#"><img src="https://img.shields.io/github/v/release/lariele/laravel-tall-boilerplate" alt="Latest Stable Version"></a>
+<a href="#"><img src="https://img.shields.io/github/v/tag/lariele/laravel-tall-boilerplate" alt="Latest Tag"></a>
+<a href="#"><img src="https://img.shields.io/github/license/lariele/laravel-tall-boilerplate" alt="License"></a>
 </p>
 
 ### Boilerplate with components created in Tailwind CSS, Alpine JS, Laravel, Livewire - TALL
